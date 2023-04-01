@@ -1,0 +1,141 @@
+header{
+    /* position: absolute; */
+    width: 100%;
+    height: 118px;
+    /* left: 0px;
+    top: 0px;
+    right: 0px; */
+    background-color: #FFD900;
+}
+
+#logo {
+position: absolute ;
+width: 202px;
+height: 63px;
+left: 58px;
+top: 27px;
+}
+
+main{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#LH{
+    position: absolute;
+    width: 802px;
+    height: 694px;
+    left: 0px;
+    top: 118px;
+    background-color: #514988;
+}
+
+#texto01 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFD900;
+    text-align: center;
+}
+
+#texto01 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;  
+}
+
+
+#texto02 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.timer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #514988;
+    display: grid;
+    grid-auto-flow: column;
+    font-size: 35px;
+    line-height: 35px;
+    border: 40px;
+    margin-top: 1px;
+}
+
+#contador h2{
+    color: #E33881;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2px;
+}
+
+#contador{
+    size-adjust: 200px ;
+    margin-left: 50px;
+}
+
+#RH{
+position: absolute;
+width: 802px;
+height: 694px;
+margin-left:800px;
+top: 118px;
+text-align: center;
+}
+
+/* video{
+    width: 600px;
+    size: 700px;
+} */
+
+#texto03{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 810px;
+    margin-left: 70px;
+    margin-bottom: 1px;
+    
+    color: #F3C61F;
+}
+#ingressos{
+    display: grid;
+    grid-auto-flow:column;
+    text-align: center;
+    border-top: 1px;
+    margin-right: 30px;
+}
+
+#botao{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 42px;
+font-weight: 700px;
+color: #FFFFFF;
+background-color: #514988;
+cursor: pointer;
+width: 600px;
+height: 148px;
+border-radius: 20px;
+margin-top: 40px;
+margin-left: 10px;
+margin-bottom: 20px;
+}
+#botao:hover{
+background-color: #F3C61F;
+color: #514988;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 42px;
+font-weight: 700px;
+width: 600px;
+height: 148px;
+}
